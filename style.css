@@ -1,0 +1,179 @@
+/* CSS RESET */
+*{
+	MARGIN : 0;
+	PADDING : 0;
+}
+html{
+	scroll-behavior:smooth;
+}
+#navbar{
+	display : flex;
+	align-items : center;
+}
+#navbar:before{
+	content: "";
+	background-color: black;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index:-1;
+	opacity:-1;
+}
+#logo{
+	margin : 100px,100px;
+}
+#logo img{
+	height :50px;
+	margin : 45px,32px;
+}
+/*navigation*/
+#navbar ul{
+	position: relative;
+}
+#navbar ul{
+	display : flex;
+}
+
+#navbar ul li {
+	display : flex;
+	list-style: none; 
+	font-size : 1.2rem;
+	
+}
+#navbar ul li a{
+	display : block;
+	padding: 3px 22px;
+	border-radius : 22px;
+	text-decoration : none;
+}
+#navbar ul li a:hover{
+	color : black;
+	background-color: white;
+}
+#Home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 820px;
+    justify-content: center;
+    align-items:center;
+}
+#Home::before{
+	content: "";
+	background: url('images/bg2.jpg');
+	position: absolute;
+	height: 110%;
+	width: 105%;
+	z-index:-1;
+	opacity:0.89;
+}
+#Home h1{
+	color: white;
+	text-align: center
+}
+#Home p{
+	color: white;
+	text-align: center
+	font-size: 1.5rem;
+	font-family:'Times New Roman'
+	font-style: 'bold';
+}
+#Services{
+	margin: 34px;
+	display: flex;
+}
+#Services .box{
+	border:2px solid brown;
+	padding:24px;
+	margin:5px 5px;
+}
+#Services .box img{
+	height:50px;
+	margin:auto;
+	justify-content:center;
+
+}
+#Clients-section{
+	height:244px;
+}
+#Clients-section::before{
+	content: "";
+	background: url("images/s.jpg");
+	position: absolute;
+	height: 80%;
+	width: 100%;
+	z-index:-1;
+	opacity:0.89;
+}
+
+#Clients{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.client-item{
+	padding:40px;
+}
+#Clients img{
+	height:50px;
+}
+#Contact{
+	position:relative;
+}
+#Contact::before{
+	content: "";
+	background: url('images/8.jfif');
+	position: absolute;
+	height: 80%;
+	width: 100%;
+	z-index:-1;
+	opacity:0.89;
+}
+#Contact img{
+	height:50px;
+}
+#Contact-box{
+	display: flex;
+	justify-content: "center";
+	align-items: "center"s;
+	padding-bottom: 34px;
+}
+#Contact-box input,
+#Contact-box textarea{
+	width: 200%;
+	padding: 0.5rem;
+	border-radius: 9px;
+	font-size: 1.1rem;
+}
+#Contact-box form{
+	width: 40%;
+}
+#Contact-box label{
+	font-size: 1.3rem;
+}
+
+#footer{
+	background: black;
+	color: black;
+	padding: 9px 20px;
+}
+.h-primary{
+	font-size: 3.8rem;
+	padding: 12px;
+}
+.h-secondary{
+	font-size: 2.8rem;
+	padding: 12px;
+}
+.btn{
+	padding: 6px 20px;
+	border: 2px solid white;
+	background-color :blueviolet;
+	color:yellow;
+	margin: 17px;
+	cursor: pointer;
+}
+.center{
+	text-align:center
+}
+
